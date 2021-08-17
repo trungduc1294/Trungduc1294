@@ -1,0 +1,455 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(100, 98, 98);
+}
+
+.funtion{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(89, 89, 139);
+}
+
+.logo h1{
+    margin: 0px;
+    margin-left: 40px;
+    color: rgb(22, 22, 133);
+}
+
+.logo{
+    display: flex;
+    text-shadow: 1px 1px 3px black;
+}
+
+.space{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.login{
+    margin-top: 16px;
+    margin-right: 40px;
+}
+
+button{
+    padding: 8px 22px;
+    line-height: 100%;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(66, 59, 59);
+    border-radius: 4px;
+}
+
+.lang{
+    background-color: white;
+    font-weight: 500;
+    color: rgb(63, 61, 61);
+}
+
+.login-btn{
+    background-color: rgb(79, 50, 158);
+    color: white;
+    font-weight: 500;
+}
+
+.content1{
+    margin-top: 60px;
+}
+
+.content1_left{
+    width: 45%;
+    margin-left: 60px;
+}
+
+.notification{
+    color: rgb(119, 115, 115);
+    font-weight: 500;
+}
+
+.content1_left_btn{
+    padding: 20px 0px;
+}
+
+.content1_left button{
+    height: 40px;
+}
+
+.content1_left .more_infor{
+    color: rgb(136, 129, 129);
+}
+
+.content1_left h1{
+    color: rgb(73, 71, 69);
+    text-shadow: 1px 1px 1px rgb(110, 105, 105);
+    font-size: 40px;
+}
+
+.content1_right{
+    width: 26%;
+    margin-right: 140px;
+    box-shadow: 1px 1px 5px rgb(170, 170, 170);
+    /* box-shadow: -1px -1px 3px rgb(182, 177, 177); */
+    padding: 30px 60px;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.covid_text{
+    color: rgb(129, 175, 235);
+    font-weight: 500;
+}
+
+.content1_right p{
+    color: rgb(143, 139, 139);
+}
+
+.content1_right_line3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1_right_line4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line3_right{
+    padding-right: 60px;
+}
+
+.line4_right{
+    padding-right: 60px;
+}
+
+.content1_right{
+    text-shadow: 1px 1px 1px rgb(172, 166, 166);
+}
+
+.content2{
+    margin-top: 80px;
+    display: flex;
+}
+
+.content2_left{
+    width: 90%;
+    margin-left: 60px;
+}
+
+.content2_left_small{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.content2_left_small img{
+    border-radius: 3px;
+    width: 140px;
+}
+
+.content2_left_big img{
+    border-radius: 5px;
+    width: 600px;
+}
+
+.content2_right h1{
+    font-size: 50px;
+    color: rgb(51, 48, 48);
+    text-shadow: 1px 1px 1px rgb(134, 131, 131);
+}
+
+.content2_right .infor{
+    color: rgb(122, 118, 118);
+}
+
+.content2_right button{
+    height: 40px;
+    margin-top: 40px;
+}
+
+.content3{
+    margin: 80px 60px;
+}
+
+.content3 h1{
+    font-size: 50px;
+    color: rgb(63, 61, 61);
+    text-shadow: 1px 1px 1px rgb(105, 102, 102);
+}
+
+.content3 p{
+    color: rgb(143, 132, 132);
+}
+
+.destination{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.destination img{
+    width: 340px;
+    border-radius: 10px;
+}
+
+.destination h3{
+    color: rgb(63, 60, 60);
+}
+
+.destination1_infor, .destination2_infor, .destination3_infor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination button{
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border: solid 2px rgb(81, 124, 204);
+    color: rgb(112, 112, 204);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.content3 .covid_text{
+    text-align: center;
+}
+
+.content3 .bottom_btn{
+    text-align: center;
+}
+
+.content3 .bottom_btn button{
+    height: 40px;
+    margin: 5px;
+}
+
+.content4{
+    margin: 80px 60px;
+}
+
+.content4 p{
+    color: rgb(132, 131, 134);
+}
+
+.content4 h3{
+    color: rgb(66, 67, 70);
+}
+
+.hotel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content4_left{
+    width: 39%;
+    padding-top: 90px;
+}
+
+.content4_right{
+    width: 50%;
+}
+
+.content4_left_line2{
+    display: flex;
+}
+
+.content4_left_line1 img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.content4_left_line2 img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.content4_right_line1 .rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(76, 43, 226);
+    border-radius: 5px;
+}
+
+.content4_right_line1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content4_right_line1 h3{
+    display: inline-block;
+    padding-top: 60px;
+    color: rgb(49, 99, 190);
+}
+
+.content4_right_line2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content4_right_line2 img{
+    width: 150px;
+}
+
+.content4_right_line2 p{
+    width: 340px;
+}
+
+.content4_right_line3 img{
+    width: 430px;
+}
+
+
+.content4_bottom h2{
+    text-align: center;
+}
+
+.content4_bottom p{
+    width: 600px;
+    text-align: center;
+    margin-left: 23%;
+}
+
+.content4_contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.content4_contact p{
+    color: rgb(76, 132, 236);
+}
+
+.content4_contact .content4_contact_btn .lang{
+    margin-right: 20px;
+}
+
+.content5{
+    margin: 80px 60px;
+    position: relative;
+}
+
+.content5 h1{
+    font-size: 50px;
+    color: rgb(59, 60, 61);
+    text-shadow: 1px 1px 1px rgb(119, 117, 117);
+}
+
+.content5 p{
+    color: rgb(104, 99, 99);
+    width: 400px;
+    padding-bottom: 30px;
+}
+
+.content5 .covid_text{
+    color: rgb(103, 103, 238);
+}
+
+.img1{ 
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.img2{
+    position: absolute;
+    top: 80%;
+    left:25%;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.img3{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.img4{
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    width: 240px;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 600px;
+    padding: 0px 60px;
+    background-color: rgb(233, 233, 240);
+    display: flex;
+    padding-bottom: 40px;
+}
+
+footer h1{
+    padding-top: 20px;
+    color:rgb(88, 79, 224);
+    text-shadow: 1px 1px 5px rgb(128, 124, 124);
+}
+
+footer p{
+    font-size: 10px;
+    color: rgb(143, 141, 138);
+}
+
+footer h5{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(77, 77, 197);
+}
+
+footer input{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 1px;
+}
+
+footer button{
+    height: 30px;
+    margin-left: 0px;
+    background-color: rgb(76, 83, 187);
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgb(59, 56, 56);
+}
+
+.footer_left{
+    width: 50%;
+}
+
+.footer_right{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.footer_right ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_right li{
+    margin-top: 10px;
+}
+
+.footer_right_2{
+    margin-left: 120px;
+}
